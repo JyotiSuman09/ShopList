@@ -62,5 +62,6 @@ function appendItemToShoppingListEl(item) {
         remove(exactLoactioninDB)
     })
 
-    shoppingListEl.append(newEl)
+    // shoppingListEl.append(newEl)
+    shoppingListEl.insertBefore(newEl, shoppingListEl.children[0]);
 }
